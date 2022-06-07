@@ -24,14 +24,14 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Repo_name:
+Repo_name: https://github.com/ijayhub/book-app
 
-Hosted link:
+Hosted link: https://book-app1.netlify.app
 
 <h1 align="center">Book Web App</h1>
 
 Description: 
-* This app allows the users to checkout list of books they like to read.
+* This app allows the users to check out a list of books they like to read.
 
 * Toggle feature.
 <p align="right">(<a href="#top">back to top</a>)</p>
