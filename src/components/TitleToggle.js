@@ -5,13 +5,13 @@ const TitleToggle = ({handleToggleDarkMode}) => {
 			<>
 				<div className='toggle-title'>
 					<header>
-						<h1 className='py-12 text-5xl text-red-600 underline books-title'>
+						<h1 className='py-12 text-5xl text-yellow-700 underline books-title'>
 							Best selling books{' '}
 						</h1>
 					</header>
 					<button
 						type='button'
-						className='bg-red-600 p-2 rounded-full btn text-white '
+						className='bg-yellow-700 p-2 rounded-full btn text-white '
 						onClick={() =>
 							handleToggleDarkMode((previousDarkMode) => !previousDarkMode)
 						}>
