@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom';
+
 
 const BookList = ({ books }) => {
 	return (
@@ -7,7 +7,7 @@ const BookList = ({ books }) => {
 			<section className='grid gap-4 grid-cols-4 grid-rows-4 books'>
 				{books.map((book) => (
 					<div key={book.rank}>
-						<div className='card rounded bg-white shadow-md'>
+						<div className='card rounded bg-white shadow-md dark-mode'>
 							<img src={book.book_image} alt='book' className='img ' />
 							<div className='p-6 leading-7'>
 								<small className='font-bold text-yellow-700'>
