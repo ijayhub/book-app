@@ -1,16 +1,24 @@
 import Home from "./components/Home"
-// import BooksInfo from './components/BooksInfo'
-// import { Routes, Route } from "react-router-dom"
+import TitleToggle from "./components/TitleToggle";
+import React from 'react'
+
+
 
 const App = () => {
+  const [darkMode, setDarkMode] = React.useState(false);
+  
   return (
-    <div>
-      <Home/>
-			{/* <Routes>
-				<Route path='/' element={<Home />}></Route>
-				<Route path='books/:id' element={<BooksInfo />}></Route>
-			</Routes> */}
-		</div>
+		<>
+      <div className={`${darkMode && 'dark-mode'}`}>
+        <div>
+					<TitleToggle handleToggleDarkMode={setDarkMode} />
+				</div>
+				<div>
+					<Home />
+        </div>
+      </div>
+			
+		</>
 	);
 }
 
