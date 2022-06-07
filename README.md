@@ -28,7 +28,7 @@ Repo_name: https://github.com/ijayhub/book-app
 
 Hosted link: https://book-app1.netlify.app
 
-<h1 align="center">Book Web App</h1>
+<h1 align="center">Book Website</h1>
 
 Description: 
 * This app allows the users to check out a list of books they like to read.
